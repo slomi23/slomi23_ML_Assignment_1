@@ -1,0 +1,23 @@
+artifact_path: /home/sandro/slomi23_ML_Assignment_1/mlruns/1/models/m-0b060db5824040248037ea551ed2ff5d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-0b060db5824040248037ea551ed2ff5d
+model_size_bytes: 1087
+model_uuid: m-0b060db5824040248037ea551ed2ff5d
+prompts: null
+run_id: 1033a3d50903432b9edd7ebb6a155b98
+utc_time_created: '2026-04-10 19:00:49.281180'
